@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body p {
+
+    font-family: "Open Sans", sans-serif; 
+    font-size: 1.2rem;   
+    line-height: 1.65;
+    color: #393d41;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #25a2c3;
+}
+
+
+/* Start Header + Logo */
+
+.header {
+    width: 100%;
+    height: 140px;
+    background-color: black;
+    text-align: left;
+}
+
+
+
+.header img {
+    width: 200px;
+    margin: 35px 0px 35px 50px;
+}
+
+/* ------------------------------- */
+
+
+/* Start Main First Section of Main (firstSec) */
+
+.firstSec {
+    width: 100%;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 14% 24% 14% 24%;
+    
+}
+
+.firstSec h1 {
+    margin-bottom: 3%;
+    font-size: 2.5em;
+}
+
+
+.firstSec p {
+    font-size: 1.6em;
+    margin-bottom: 40px;
+}
+
+.firstSec a button h3 {
+    text-transform: uppercase;
+    font-size: 1.7em;   
+    font-weight: 600;
+    color: white; 
+} 
+
+.firstSec a button {
+    background-color: #f04c2f;
+    padding: 16px 40px 16px 40px;
+    border: none;
+    border-radius: 7px;
+} 
+
+/* -------------------------------------------- */
+
+/* Start Second Section of Main (secondSec) */
+
+
+
+.secondSec {
+    width: 100%;
+    margin: 100px auto 100px auto;
+}
+
+
+.imgDesk {
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.imgDesk img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 450px;
+    margin-right: 25px;
+}
+
+.secondSecText {
+    width: 45%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 25px;
+    line-height: 1.5;
+}
+
+.secondSecText h2 {
+    padding-top: 30px;
+}
+
+
+
+
+/* ---------------------------------------------- */
+
+/* Start Third Sec */
+
+
+.thirdSec {
+    background-color: #EE2203;
+    text-align: center;
+    padding: 80px 30px 50px 30px;
+    width: 100%;
+}
+
+
+.thirdSec h2 {
+    color: white;
+}
+
+.thirdSec p {
+    color: white;
+}
+
+.thirdSec h2 {
+    font-size: 2.5em;    
+}
+
+.thirdSec p {
+    font-size: 1.4em;    
+    font-style: italic;
+}
+
+#marioRossi p {
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+#cite p {
+    margin: 1.8% 0% 1.8% 0%;
+}
+
+#CEO p {
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+
+
+/* ------------ End Third Sec ------------------ */
+
+
+/* Start Fourth Sec */
+
+
+.fourthSec {
+    text-align: center;
+}
+
+
+#yourPC {
+    width: 30%;
+    margin: 9% 1.5% 5% 2.5%;
+    border: 1.5px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#learnNow {
+    width: 30%;
+    margin: 0% 1.5% 5% 0%;
+    border: 1.5px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+#workWithUs {
+    width: 30%;
+    margin: 0% 2.5% 10% auto;
+    border: 1.5px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+
+#yourPC img {
+    width: 100%;
+    height: 400px;
+}
+
+#learnNow img {
+    width: 100%;
+    height: 400px;
+}
+
+#workWithUs img {
+    width: 100%;
+    height: 400px;
+}
+
+
+#yourPC h3 {
+    padding: 30px 0px 10px 0px;
+    font-size: 1.4em;
+}
+
+#yourPC p {
+    padding: 0px 30px 50px 30px;
+}
+
+
+#learnNow h3 {
+    padding: 30px 0px 10px 0px;
+    font-size: 1.4em;
+}
+
+#learnNow p {
+    padding: 0px 30px 50px 30px;
+}
+
+
+#workWithUs h3 {
+    padding: 30px 0px 10px 0px;
+    font-size: 1.4em;
+}
+
+#workWithUs p {
+    padding: 0px 30px 50px 30px;
+}
+
+
+/* ------------------- End Fourth Sec ----------------------- */
+
+/* Start Footer */
+
+
+.foot {
+    width: 18%;
+    margin: 0 auto;
+}
+
+#footer {
+    width: 100%;
+    height: 100%;
+    background-color: #22A9CA;
+    color: white;
+    font-family: "Open Sans", sans-serif; 
+    line-height: 1.8;
+}
+
+#footer h3 {
+    color: white;
+    padding: 18% 0% 2% 0%;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#footer a {
+    color: white;
+    font-size: 1.5em;
+}
+
+
+address {
+    color: white;
+    font-size: 1.5em;
+    font-style: normal;
+    text-align: left;
+}
+
+
+
+hr {
+    color: white;
+    width: 18%;
+    margin: 1% auto 1% auto;
+}
+
+#copyRight p {
+    font-size: 1.1em;
+    color: rgb(221, 221, 221);
+    display: inline-block;
+    text-align: center;
+}
+
+#copyRight a {
+    font-size: 1.1em;
+    color: rgb(221, 221, 221);
+    text-align: center;
+    display: inline-block;
+}
+
+#copyRight {
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+
+#footer ion-icon {
+    vertical-align: middle;
+    margin: 0px 2px 0px 0px;
+}
