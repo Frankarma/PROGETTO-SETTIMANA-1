@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body p {
+
+    font-family: "Open Sans", sans-serif; 
+    font-size: 1.2rem;   
+    line-height: 1.65;
+    color: #393d41;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #25a2c3;
+}
+
+
+/* Start Header + Logo */
+
+.header {
+    width: 100%;
+    height: 140px;
+    background-color: black;
+    text-align: center;
+}
+
+
+
+.header img {
+    width: 200px;
+    margin: 35px 0px 35px 0px;
+}
+
+/* ------------------------------- */
+
+
+/* Start Main First Section of Main (firstSec) */
+
+.firstSec {
+    width: 100%;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 14% 6% 14% 6%;
+    
+}
+
+.firstSec h1 {
+    margin-bottom: 3%;
+    font-size: 2.5em;
+}
+
+
+.firstSec p {
+    font-size: 1.6em;
+    margin-bottom: 40px;
+}
+
+.firstSec a button h3 {
+    text-transform: uppercase;
+    font-size: 1.7em;   
+    font-weight: 600;
+    color: white; 
+} 
+
+.firstSec a button {
+    background-color: #f04c2f;
+    padding: 16px 40px 16px 40px;
+    border: none;
+    border-radius: 7px;
+} 
+
+/* -------------------------------------------- */
+
+/* Start Second Section of Main (secondSec) */
+
+.secondSec {
+    text-align: center;
+    padding: 50px 35px 90px 35px
+}
+
+.secondSec h2 {
+    margin: 8% 0% 2% 0%;
+}
+
+.secondSec img {
+    border-radius: 50%;
+    width: 85%;
+    max-width: 350px;
+    margin: 10% 0% 10% 0%;
+}
+
+/* ---------------------------------------------- */
+
+
+/* Start Third Section of Main (thirdSec) */
+
+
+.thirdSec {
+    background-color: #EE2203;
+    text-align: center;
+    padding: 80px 30px 50px 30px;
+    width: 100%;
+}
+
+
+.thirdSec h2 {
+    color: white;
+}
+
+.thirdSec p {
+    color: white;
+}
+
+.thirdSec h2 {
+    font-size: 2.5em;    
+}
+
+.thirdSec p {
+    font-size: 1.4em;    
+    font-style: italic;
+}
+
+#marioRossi p {
+    font-style: normal;
+    font-size: 1.7em;
+}
+
+#cite p {
+    margin: 7% 0% 7% 0%;
+}
+
+#CEO p {
+    font-style: normal;
+    font-size: 1.1em;
+}
+
+
+
+/* ---------------------------------------- */
+
+/* Start Fourth Section (fourthSec) */
+
+
+.fourthSec {
+    text-align: center;
+}
+
+
+#yourPC {
+    width: 80%;
+    margin: 18% auto 10% auto;
+    border: 1.5px solid rgb(207, 207, 207);
+    border-radius: 5px;
+}
+
+#learnNow {
+    width: 80%;
+    margin: 0% auto 10% auto;
+    border: 1.5px solid rgb(207, 207, 207);
+    border-radius: 5px;
+}
+
+#workWithUs {
+    width: 80%;
+    margin: 0% auto 20% auto;
+    border: 1.5px solid rgb(207, 207, 207);
+    border-radius: 5px;
+}
+
+
+#yourPC img {
+    width: 100%;
+}
+
+#learnNow img {
+    width: 100%;
+}
+
+#workWithUs img {
+    width: 100%;
+}
+
+
+#yourPC h3 {
+    padding: 30px 0px 10px 0px;
+    font-size: 1.4em;
+}
+
+#yourPC p {
+    padding: 0px 30px 50px 30px;
+}
+
+
+#learnNow h3 {
+    padding: 30px 0px 10px 0px;
+    font-size: 1.4em;
+}
+
+#learnNow p {
+    padding: 0px 30px 50px 30px;
+}
+
+
+#workWithUs h3 {
+    padding: 30px 0px 10px 0px;
+    font-size: 1.4em;
+}
+
+#workWithUs p {
+    padding: 0px 30px 50px 30px;
+}
+
+
+/* -------------- Ending Main (Sec. 1-2-3-4) ---------------- */
+
+
+/* Start Footer (footer) */
+
+#footer {
+    width: 100%;
+    height: 100%;
+    background-color: #22A9CA;
+    color: white;
+    text-align: center;
+    font-family: "Open Sans", sans-serif; 
+    line-height: 1.8;
+}
+
+#footer h3 {
+    color: white;
+    padding: 10% 0% 6% 0%;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+#footer a {
+    color: white;
+    font-size: 1.5em;
+}
+
+#footer p {
+    display: inline-block;
+}
+
+address {
+    color: white;
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+
+
+hr {
+    color: white;
+    width: 45%;
+    margin: 8% auto 8% auto;
+}
+
+#copyRight p {
+    font-size: 1.1em;
+    color: rgb(221, 221, 221);
+}
+
+#copyRight a {
+    font-size: 1.1em;
+    color: rgb(221, 221, 221);
+}
+
+#copyRight {
+    padding-bottom: 80px;
+}
+
+
+#footer ion-icon {
+    vertical-align: middle;
+    margin: 0px 2px 0px 0px;
+}
+
+/* -------------- Ending Footer ------------------- */
